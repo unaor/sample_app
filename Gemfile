@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 gem 'rails', '3.2.6'
-gem 'sqlite3'
 gem 'execjs'
 gem 'therubyracer'
 group :assets do
@@ -10,6 +9,7 @@ group :assets do
 end
 
 group :development do
+gem 'sqlite3'
 gem 'rspec-rails','2.10.1'
 end
 group :test do
